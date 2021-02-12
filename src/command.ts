@@ -32,7 +32,7 @@ function getBounds() : Point {
 function getRoverStart(neBoundary: Point) : PointWithHead {
 	let start: PointWithHead;
 	while (true) {
-		const startStr = rl.question("Enter the rover's starting position: (x y dir): ");
+		const startStr = rl.question("Enter the rover's starting position: [x y dir]: ");
 		const coors = startStr.split(" ");
 		let x = parseInt(coors[0]);
 		let y = parseInt(coors[1]);

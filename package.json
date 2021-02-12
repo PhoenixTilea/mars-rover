@@ -2,6 +2,10 @@
 	"name": "mars-rover",
 	"version": "1.0.0",
 	"description": "Simulates control of a Mars rover using simple inputs and grid-based movement.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/PhoenixTilea/mars-rover.git"
+	},
 	"main": "index.js",
 	"scripts": {
 		"test": "jest",
