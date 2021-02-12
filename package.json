@@ -1,0 +1,31 @@
+{
+	"name": "mars-rover",
+	"version": "1.0.0",
+	"description": "Simulates control of a Mars rover using simple inputs and grid-based movement.",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest",
+		"start": "npm run build:live",
+		"build": "tsc -p .",
+		"build:live": "nodemon --watch 'src/**/*.ts' --exec \"ts-node\" src/index.ts"
+	},
+	"keywords": [
+		"node",
+		"typescript"
+	],
+	"author": "Sabelyn Thorpe",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/jest": "^26.0.20",
+		"@types/node": "^14.14.25",
+		"@types/readline-sync": "^1.4.3",
+		"jest": "^26.6.3",
+		"nodemon": "^2.0.7",
+		"ts-jest": "^26.5.1",
+		"ts-node": "^9.1.1",
+		"typescript": "^4.1.4"
+	},
+	"dependencies": {
+		"readline-sync": "^1.4.10"
+	}
+}
